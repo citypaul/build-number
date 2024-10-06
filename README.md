@@ -34,7 +34,7 @@ The inputs added together
 ## Example usage
 
 ```yml
-uses: citypaul/build-number@v1
+uses: citypaul/build-number@1.0.3
 with:
   base: 100
   run-id: ${GITHUB_RUN_NUMBER}
