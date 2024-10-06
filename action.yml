@@ -1,4 +1,4 @@
-name: "Build Number (with base)"
+name: "Build Number (with base), node20"
 author: "Mark Lilback"
 description: "Takes a base number and returns it + GITHUB_RUN_NUMBER"
 inputs:
