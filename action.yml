@@ -1,19 +1,19 @@
-name: 'Build Number (with base)'
-author: 'Mark Lilback'
-description: 'Takes a base number and returns it + GITHUB_RUN_NUMBER'
+name: "Build Number (with base)"
+author: "Mark Lilback"
+description: "Takes a base number and returns it + GITHUB_RUN_NUMBER"
 inputs:
   base:
-    description: 'Base build number'
+    description: "Base build number"
     required: true
   run-id:
-    description: 'The GITHUB_RUN_NUMBER environment variable'
+    description: "The GITHUB_RUN_NUMBER environment variable"
     required: true
 outputs:
   build-number:
-    description: 'The derived build number'
+    description: "The derived build number"
 runs:
-  using: 'node16'
-  main: 'main.js'
+  using: "node20"
+  main: "main.js"
 branding:
-  color: 'purple'
-  icon: 'plus'
+  color: "purple"
+  icon: "plus"
